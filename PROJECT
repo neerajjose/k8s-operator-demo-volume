@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: k8s-operator-demo-volume
 repo: k9s-operator-demo-volume
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: volumes.nj.io
+  group: demo
+  kind: DemoVolume
+  path: k9s-operator-demo-volume/api/v1
+  version: v1
 version: "3"
