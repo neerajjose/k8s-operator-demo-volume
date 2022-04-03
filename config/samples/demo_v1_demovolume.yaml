@@ -1,6 +1,7 @@
 apiVersion: demo.volumes.nj.io/v1
 kind: DemoVolume
 metadata:
-  name: demovolume-sample
+  name: nj-sample-volume
 spec:
-  # TODO(user): Add fields here
+  name: nj-sample-volume
+  size: 5

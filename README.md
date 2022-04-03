@@ -16,3 +16,18 @@ kubebuilder create api  --group demo --version v1 --kind DemoVolume
 make generate
 make manifests
 ```
+
+- install crd in cluster
+> Note: Make sure the cluster is connected
+```
+make install
+make run
+# Try to apply the manifest
+kubectl apply -f config/samples/demo_v1_demovolume.yaml
+```
+- update the reconciler logic and run
+```
+make run
+```
+### References: 
+- [Dinesh Majrekar Session on Kubernetes Operator](https://www.youtube.com/watch?v=LLVoyXjYlYM)

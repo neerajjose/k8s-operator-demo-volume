@@ -30,6 +30,7 @@ type DemoVolumeSpec struct {
 
 	Name string `json:"name,omitempty"`
 	Size int    `json:"size,omitempty"`
+	// StorageClass int    `json:"Storage,omitempty"`
 }
 
 // DemoVolumeStatus defines the observed state of DemoVolume
