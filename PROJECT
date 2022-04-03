@@ -1,0 +1,6 @@
+domain: volumes.nj.io
+layout:
+- go.kubebuilder.io/v3
+projectName: k8s-operator-demo-volume
+repo: k9s-operator-demo-volume
+version: "3"
