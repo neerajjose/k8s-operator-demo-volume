@@ -5,3 +5,4 @@ metadata:
 spec:
   name: nj-sample-volume
   size: 5
+  storageClass: standard

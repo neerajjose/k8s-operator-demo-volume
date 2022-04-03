@@ -28,9 +28,9 @@ type DemoVolumeSpec struct {
 	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
 
-	Name string `json:"name,omitempty"`
-	Size int    `json:"size,omitempty"`
-	// StorageClass int    `json:"Storage,omitempty"`
+	Name         string `json:"name,omitempty"`
+	Size         int    `json:"size,omitempty"`
+	StorageClass string `json:"storageClass,omitempty"`
 }
 
 // DemoVolumeStatus defines the observed state of DemoVolume
